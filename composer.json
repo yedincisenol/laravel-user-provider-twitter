@@ -1,0 +1,20 @@
+{
+    "name": "yedincisenol/laravel-user-provider-twitter",
+    "description": "Laravel Twitter provider for Provider Package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "yedincisenol\\UserProviderTwitter\\": "src/"
+        }
+    },
+    "require": {
+        "yedincisenol/laravel-user-provider": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "yedincisenol\\UserProviderTwitter\\UserProviderTwitterServiceProvider"
+            ]
+        }
+    }
+}
